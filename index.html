@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toplama Oyunu</title>
+    <style>
+        #game-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #number-screen {
+            font-size: 40px;
+            margin: 20px;
+        }
+        #input-container {
+            margin-top: 20px;
+        }
+        #level {
+            font-size: 20px;
+        }
+        #start-button {
+            font-size: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        #message {
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Toplama Oyunu</h1>
+        <div id="level">Seviye: 1</div>
+        <div id="number-screen"></div>
+        <div id="input-container">
+            <input type="number" id="user-answer" placeholder="Cevabınızı girin">
+            <button id="check-button">Doğrula</button>
+        </div>
+        <div id="message"></div>
+        <button id="start-button">Başla</button>  <!-- Başla butonu -->
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
